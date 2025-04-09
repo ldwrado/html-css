@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Idroid';
+    src: url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(20, 20, 20);
+    justify-items: center;
+}
+
+p {
+    margin: 15px 0px;
+    text-align: justify;
+}
+
+header{
+    background-color: rgb(30, 30, 30);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.titles > h1{
+    color: white;
+}
+
+.titles > h2{
+    color: rgb(0, 255, 0);
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    color: white;
+}
+
+.nav-links > .link > a{
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+
+.nav-links > .link > a:visited{
+    color: white;
+}
+
+.link a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 255, 0);
+    transition: all 0.3s ease;
+}
+
+.link a:hover::after{
+    width: 100%;
+}
+
+main{
+    background-color: white;
+    width: 100%;
+    max-width: 800px;
+    min-width: 300px;
+    padding: 20px;
+}
+
+main img {
+    width: 100%;
+}
+
+.intro > h1 {
+    font-family: 'Idroid', Arial, Helvetica, sans-serif;
+}
+
+.first-version > h2 {
+    font-family: 'Idroid', Arial, Helvetica, sans-serif;
+}
+
+.new-mascot .bugdroid {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
