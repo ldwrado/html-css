@@ -13,11 +13,17 @@ header {
     background-color: black;
     color: white;
     margin-top: 0px;
-    height: 150px;
+    height: 200px;
+}
+
+a {
+    color: white;
 }
 
 h1 {
     margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4em;
 }
 
 h2 {
@@ -25,6 +31,36 @@ h2 {
 }
 
 section {
-    font-size: 10%vw;
+    font-size: 3.5vw;
+    padding: 20px;
 }
 
+.p2 {
+    color: white;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.p2 > p {
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+.p4 {
+    color: white;
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.p4 > p {
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
