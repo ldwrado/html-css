@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+</head>
+<body>
+    <h1>Inputs</h1>
+
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p>
+            <label for="isenha">Senha</label>
+            <input type="password" name="senha" id="isenha" minlength="8" required>
+        </p>
+        <p>
+            <label for="idata">Data</label>
+            <input type="date" name="data" id="idata" required>
+        </p>
+        <p>
+            <label for="ihora">Hora</label>
+            <input type="time" name="hora" id="ihora" required>
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+
+</body>
+</html>
